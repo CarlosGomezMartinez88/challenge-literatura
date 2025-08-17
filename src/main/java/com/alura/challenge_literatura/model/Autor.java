@@ -17,7 +17,7 @@ public class Autor {
     @OneToMany(mappedBy = "autores", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     private List<Libro> libros;
 
-    Autor(){
+    public Autor(){
     }
 
     public Autor(String nombre){

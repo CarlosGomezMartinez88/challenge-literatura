@@ -2,7 +2,9 @@ package com.alura.challenge_literatura.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import org.springframework.stereotype.Service;
 
+@Service
 public class ConvierteDatos implements iConvierteDatos{
     private ObjectMapper mapper = new ObjectMapper();
 
